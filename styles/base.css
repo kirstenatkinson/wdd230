@@ -30,7 +30,7 @@ h1 {
 }
 
 hr {
-    border-bottom: 5px solid #A15C38;
+    border-bottom: 5px solid;
     margin-left: 0px;
     margin-right: 0px;
 }
