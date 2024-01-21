@@ -4,35 +4,28 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+header,
+main,
+footer {
     background-color: white;
-    width: 1000px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
-main {
-    background-color: white;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+nav {
+    width: 100%;
 }
 
 h1 {
     color: #A15C38;
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    margin-top: auto;
-    margin-bottom: auto;
-    grid-column: 2 / 4;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
-hr {
-    border-bottom: 2px solid #A15C38;
-    margin-left: 0px;
-    margin-right: 0px;
+main {
+    margin: 1rem;
 }
 
 h2 {
@@ -44,14 +37,7 @@ footer {
     background-color: #A15C38;
     color: #F7F1F0;
     text-align: center;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
-}
-
-#main-nav {
-    grid-column: 1 / 4;
+    padding: 2.5rem;
 }
 
 #main-nav ul {
@@ -62,32 +48,24 @@ footer {
 
 #main-nav ul li a {
     display: block;
-    padding: 15px;
+    padding: 2rem;
     text-decoration: none;
     text-align: center;
     background-color: #A15C38;
     color: #F7F1F0;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 #main-nav ul li a:hover {
     display: block;
-    padding: 10px;
     background-color: #F7F1F0;
     color: #A15C38;
 }
 
 #portrait {
-    width: 300px;
-    grid-column: 1 /2;
-}
-
-#hr-one {
-    grid-column: 1/ 4;
-}
-
-#hr-three {
-    border-bottom: 1px solid #C3A6A0;
+    display: block;
+    width: 25%;
+    margin: auto;
 }
 
 #learning-activities {
