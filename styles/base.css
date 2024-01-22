@@ -2,7 +2,8 @@ body {
     background-color: white;
     color: black;
     font-family: 'Roboto', sans-serif;
-    width: 100%
+    width: 100%;
+    margin: auto;
 }
 
 header,
@@ -26,7 +27,7 @@ h1 {
 }
 
 main {
-    margin: 1rem;
+    margin: auto;
 }
 
 h2 {
@@ -38,7 +39,8 @@ footer {
     background-color: #A15C38;
     color: #F7F1F0;
     text-align: center;
-    padding: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 #main-nav ul {
