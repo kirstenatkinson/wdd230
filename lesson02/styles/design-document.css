@@ -1,0 +1,57 @@
+h1 {
+    padding: 1rem;
+    text-align: left;
+}
+
+h2 {
+    color: black;
+}
+
+section {
+    margin-bottom: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 640px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #card-white-space {
+        grid-column: 1 / 2;
+    }
+
+    #card-proximity {
+        grid-column: 2 / 3;
+    }
+
+    #card-hierarchy {
+        grid-column: 1 / 3;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #card-white-space {
+        grid-column: 1 / 2;
+    }
+
+    #card-proximity {
+        grid-column: 2 / 3;
+    }
+
+    #card-hierarchy {
+        grid-column: 3 / 4;
+    }
+}
