@@ -34,6 +34,10 @@
         text-align: left;
     }
 
+    #responsive-menu {
+        display: none;
+    }
+
     #card-one {
         grid-column: 1 / 2;
     }
