@@ -16,6 +16,10 @@
         margin-bottom: 3rem;
     }
 
+    nav.open {
+        display: block;
+    }
+
     nav ul {
         display: flex;
     }

@@ -53,20 +53,28 @@ footer {
 #responsive-menu {
     font-size: 1.5rem;
     border: 0;
-    background-color: #A15C38;
-    color: white;
+    background-color: white;
+    color: #A15C38;
     position: absolute;
     top: 2rem;
     right: 2rem;
 }
 
 #responsive-menu::before {
-    content: "☰";
+    content: "X";
+}
+
+.open li {
+    display: block;
 }
 
 #responsive-menu.open::before {
-    content: "X";
-    color: white;
+    content: "☰";
+    color: #A15C38;
+}
+
+nav.open {
+    display: none;
 }
 
 #main-nav ul {
@@ -91,9 +99,6 @@ footer {
     color: #A15C38;
 }
 
-.open a {
-    display: block;
-}
 
 #portrait {
     display: block;
