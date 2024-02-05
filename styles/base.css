@@ -17,6 +17,7 @@ footer {
 
 nav {
     width: 100%;
+    display: none;
 }
 
 h1 {
@@ -61,7 +62,7 @@ footer {
 }
 
 #responsive-menu::before {
-    content: "X";
+    content: "☰";
 }
 
 .open li {
@@ -69,12 +70,12 @@ footer {
 }
 
 #responsive-menu.open::before {
-    content: "☰";
+    content: "X";
     color: #A15C38;
 }
 
 nav.open {
-    display: none;
+    display: block;
 }
 
 #main-nav ul {

@@ -19,9 +19,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
 
     <!-- CSS References -->
-    <link rel="stylesheet" src="base.css">
-    <link rel="stylesheet" src="medium.css">
-    <link rel="stylesheet" src="larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
 
     <link rel="icon" src="images/favicon.ico">
     <title>Stockholm Chamber of Commerce</title>
@@ -29,21 +30,96 @@
 
 <body>
     <header>
-        <nav>
+        <img id="hero-img" src="images/social-media-image.jpg" alt="Stockholm">
+        <a href="#"><img id="logo" src="images/logo.jpg" alt="logo"></a>
+        <button id="responsive-menu"></button>
+        <nav id="navigation">
             <ul>
-
+                <li><a href="#">Opportunities</a></li>
+                <li><a href="#">Get on the Map</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-
+        <div class="hero-text">
+            <h1>Stockholm Chamber of Commerce</h1>
+            <button id="hero-button">Join Today</button>
+        </div>
     </header>
 
     <main>
 
+        <h2>Our Goal</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.</p>
+
+        <section id="opportunities">
+            <h2>Opportunities</h2>
+            <div id="opportunity-one">
+                <img class="responsive" id="opportunity-one-img" src="images/midsommar.jpg" alt="Midsommar Pole">
+                <h3>Midsommar</h3>
+            </div>
+            <div id="opportunity-two">
+                <img class="responsive" id="opportunity-two-img" src="images/swedish-flag.jpg" alt="Swedish Flag">
+                <h3>National Holiday</h3>
+            </div>
+            <div id="opportunity-three">
+                <img class="responsive" id="opportunity-three-img" src="images/valborg.jpg" alt="Valborg fire">
+                <h3>Valborg</h3>
+            </div>
+        </section>
+
+        <section id="get-on-map">
+            <div id="map-text">
+                <h2>Get on the Map</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <img id="map-img" src="images/orange-shop.jpg">
+        </section>
+        <section id="join-community">
+            <h2>Join the Community</h2>
+            <img id="hightlight-one" src="images/logo-placeholder.jpg">
+            <img id="hightlight-two" src="images/logo-placeholder.jpg">
+            <img id="hightlight-three" src="images/logo-placeholder.jpg">
+            <img id="hightlight-four" src="images/logo-placeholder.jpg">
+            <img id="hightlight-five" src="images/logo-placeholder.jpg">
+            <img id="hightlight-six" src="images/logo-placeholder.jpg">
+        </section>
+        <section id="weather">
+            <h2>Weather Forcast</h2>
+        </section>
     </main>
 
     <footer>
-
+        <section id="footer-contact">
+            <h3>Contact</h3>
+            <p>+46 16 363 3783 <br>
+                connect@stockolmchamber.org <br>
+                Kungliga slottet, 107 70 Stockholm, Sweden</p>
+        </section>
+        <section id="footer-links">
+            <ul>
+                <li><a href="#">Opportunities</a></li>
+                <li><a href="#">Get on the Map</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </section>
+        <section id="site-info">
+            <p id="copyrightName"></p>
+            <p id="lastModified"></p>
+        </section>
     </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/responsiveMenu.js"></script>
+
 </body>
 
 </html>
