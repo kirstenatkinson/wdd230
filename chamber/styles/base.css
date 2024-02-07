@@ -39,9 +39,10 @@ footer {
     border: 0;
     background-color: transparent;
     color: white;
-    position: absolute;
+    position: fixed;
     top: 2rem;
     right: 2rem;
+    z-index: 1;
 }
 
 .hero-text {
@@ -72,11 +73,7 @@ footer {
 
 #responsive-menu.open::before {
     content: "X";
-    color: var(--main-color);
-    z-index: 1;
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
+    color: var(--accent);
 }
 
 nav {
@@ -92,13 +89,13 @@ nav.open {
     list-style-type: none;
     margin-top: 0px;
     padding: 0px;
-    position: fixed;
+    position: absolute;
     height: 100%;
     width: 100%;
-    z-index: 2;
     left: 0;
     top: 0;
     transition: 0.5s;
+    z-index: 2;
 }
 
 #navigation ul li a {
@@ -116,6 +113,7 @@ nav.open {
     display: block;
     background-color: var(--main-color);
     color: white;
+    transition: 0.5s;
 }
 
 main {

@@ -39,26 +39,26 @@
     }
 
     #hightlight-one {
-        grid-template-columns: 1 / 2;
+        grid-column: 1 / 2;
     }
 
     #highlight-two {
-        grid-template-columns: 2 / 3;
+        grid-column: 2 / 3;
     }
 
     #hightlight-three {
-        grid-template-columns: 3 / 4;
+        grid-column: 3 / 4;
     }
 
     #highlight-four {
-        grid-template-columns: 1 / 2;
+        grid-column: 1 / 2;
     }
 
     #hightlight-five {
-        grid-template-columns: 2 / 3;
+        grid-column: 2 / 3;
     }
 
     #highlight-six {
-        grid-template-columns: 3 / 4;
+        grid-column: 3 / 4;
     }
 }
