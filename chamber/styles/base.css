@@ -90,12 +90,12 @@ nav.open {
     margin-top: 0px;
     padding: 0px;
     position: absolute;
-    height: 100%;
     width: 100%;
     left: 0;
     top: 0;
     transition: 0.5s;
     z-index: 2;
+    background-color: white;
 }
 
 #navigation ul li a {
@@ -103,7 +103,6 @@ nav.open {
     padding: 2rem;
     text-decoration: none;
     text-align: center;
-    background-color: white;
     color: var(--main-color);
     font-size: 1.5rem;
     transition: 0.3s;
@@ -140,7 +139,9 @@ h2 {
 #opportunities div h3 {
     color: white;
     position: absolute;
-    top: 35%;
+    font-size: 2rem;
+    text-align: center;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
