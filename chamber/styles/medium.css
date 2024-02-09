@@ -28,6 +28,12 @@
         padding: .5rem;
     }
 
+    #navigation ul li a:hover {
+        background-color: white;
+        color: #da811b;
+        border-radius: 2rem;
+    }
+
     nav ul li {
         flex: 1 1 100%;
         border-radius: 2rem;

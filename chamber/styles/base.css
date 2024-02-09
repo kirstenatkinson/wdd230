@@ -39,7 +39,7 @@ footer {
     border: 0;
     background-color: transparent;
     color: white;
-    position: fixed;
+    position: absolute;
     top: 2rem;
     right: 2rem;
     z-index: 1;
@@ -58,6 +58,10 @@ footer {
     font-size: 2rem;
 }
 
+#responsive-menu {
+    z-index: 10;
+}
+
 #responsive-menu::before {
     content: "☰";
 }
@@ -65,6 +69,8 @@ footer {
 #responsive-menu:hover {
     background-color: var(--main-color);
     color: white;
+    transition: .5s;
+    border-radius: .5rem;
 }
 
 .open li {
@@ -74,6 +80,8 @@ footer {
 #responsive-menu.open::before {
     content: "X";
     color: var(--accent);
+    position: absolute;
+
 }
 
 nav {
@@ -90,11 +98,11 @@ nav.open {
     margin-top: 0px;
     padding: 0px;
     position: absolute;
+    z-index: 5;
     width: 100%;
     left: 0;
     top: 0;
     transition: 0.5s;
-    z-index: 2;
     background-color: white;
 }
 
@@ -216,6 +224,10 @@ footer {
 
 #footer-links {
     grid-column: 2 / 3;
+}
+
+#footer-links h3 {
+    text-align: right;
 }
 
 #footer-links ul {
