@@ -1,3 +1,13 @@
+:root {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    --main-color: #da811b;
+    --text-on-color: white;
+    --background-color: white;
+    --accent: #3C6E84;
+}
+
 @media screen and (min-width: 935px) {
     .hero-text>h1 {
         font-size: 5rem;

@@ -3,9 +3,14 @@
     font-family: 'Roboto', sans-serif;
     color: black;
     --main-color: #da811b;
+    --text-on-color: white;
+    --background-color: white;
     --accent: #3C6E84;
-
+    --color-mode-background: black;
+    --color-mode-text: white;
 }
+
+
 
 * {
     box-sizing: border-box;
@@ -38,27 +43,10 @@ footer {
     font-size: 1.5rem;
     border: 0;
     background-color: transparent;
-    color: white;
+    color: var(--text-on-color);
     position: absolute;
     top: 2rem;
     right: 2rem;
-    z-index: 1;
-}
-
-.hero-text {
-    color: white;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.hero-text>h1 {
-    font-size: 2rem;
-}
-
-#responsive-menu {
     z-index: 10;
 }
 
@@ -68,7 +56,7 @@ footer {
 
 #responsive-menu:hover {
     background-color: var(--main-color);
-    color: white;
+    color: var(--text-on-color);
     transition: .5s;
     border-radius: .5rem;
 }
@@ -81,7 +69,11 @@ footer {
     content: "X";
     color: var(--accent);
     position: absolute;
+}
 
+#responsive-menu.open:hover::before {
+    color: var(--main-color);
+    transition: .5s;
 }
 
 nav {
@@ -103,7 +95,7 @@ nav.open {
     left: 0;
     top: 0;
     transition: 0.5s;
-    background-color: white;
+    background-color: var(--background-color);
 }
 
 #navigation ul li a {
@@ -119,8 +111,41 @@ nav.open {
 #navigation ul li a:hover {
     display: block;
     background-color: var(--main-color);
-    color: white;
+    color: var(--text-on-color);
     transition: 0.5s;
+}
+
+.hero-text {
+    color: var(--text-on-color);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-text>h1 {
+    font-size: 2rem;
+}
+
+
+#color-mode::before {
+    content: "Dark Mode";
+}
+
+#color-mode:hover {
+    background-color: var(--color-mode-background);
+    color: var(--color-mode-text);
+    transition: .5s;
+    border-radius: .5rem;
+}
+
+#color-mode.open::before {
+    content: "Light Mode";
+}
+
+#color-mode.open::before {
+    content: "Light Mode";
 }
 
 main {
@@ -145,7 +170,7 @@ h2 {
 }
 
 #opportunities div h3 {
-    color: white;
+    color: var(--text-on-color);
     position: absolute;
     font-size: 2rem;
     text-align: center;
@@ -212,7 +237,7 @@ h2 {
 
 footer {
     background-color: var(--main-color);
-    color: white;
+    color: var(--text-on-color);
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
