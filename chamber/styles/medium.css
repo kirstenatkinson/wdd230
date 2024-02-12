@@ -127,4 +127,32 @@
     #highlight-six {
         grid-column: 3 / 4;
     }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #footer-contact {
+        grid-column: 1 / 2;
+    }
+
+    #footer-links {
+        grid-column: 2 / 3;
+    }
+
+    #footer-links h3 {
+        text-align: right;
+    }
+
+    #footer-links ul {
+        list-style-type: none;
+        text-align: right;
+    }
+
+    #site-info {
+        grid-column: 1 / 3;
+        text-align: center;
+        font-size: 0.75rem;
+    }
 }
