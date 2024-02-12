@@ -6,8 +6,8 @@
     --text-on-color: white;
     --background-color: white;
     --accent: #3C6E84;
-    --color-mode-background: black;
-    --color-mode-text: white;
+    --color-mode-background: white;
+    --color-mode-text: black;
 }
 
 :root .dark-mode {
@@ -18,8 +18,8 @@
     --text-on-color: white;
     --background-color: black;
     --accent: #3C6E84;
-    --color-mode-background: white;
-    --color-mode-text: black;
+    --color-mode-background: black;
+    --color-mode-text: white;
 }
 
 
@@ -136,6 +136,19 @@ nav.open {
     text-align: center;
 }
 
+#hero-button {
+    color: var(--color-mode-background);
+    background-color: var(--main-color);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+#hero-button:hover {
+    background-color: var(--color-mode-background);
+    color: var(--color-mode-text);
+    transition: 0.5s;
+}
+
 .hero-text>h1 {
     font-size: 2rem;
 }
@@ -154,8 +167,8 @@ nav.open {
 }
 
 #color-mode:hover {
-    background-color: var(--color-mode-background);
-    color: var(--color-mode-text);
+    background-color: var(--color-mode-text);
+    color: var(--color-mode-background);
     transition: .5s;
     border-radius: .5rem;
     border: 0;
