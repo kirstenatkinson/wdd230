@@ -161,10 +161,9 @@ nav.open {
     border: 0;
 }
 
-#color-mode.open::before {
+#color-mode.dark-mode::before {
     content: "Light Mode";
 }
-
 
 main {
     padding: 1rem;
