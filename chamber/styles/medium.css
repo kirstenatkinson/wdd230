@@ -48,7 +48,12 @@
         flex: 1 1 100%;
         border-radius: 2rem;
         margin: .25rem;
-        border: 0.1em solid var(--background-color);
+        border: 0.1em solid var(--text-on-color);
+    }
+
+    #color-mode {
+        top: 5rem;
+        right: 2rem;
     }
 
     #opportunities {
