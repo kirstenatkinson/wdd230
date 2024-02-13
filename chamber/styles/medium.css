@@ -105,26 +105,30 @@
     }
 
     #hightlight-one {
-        grid-column: 1 / 2;
+        grid-column: 1 / 4;
     }
 
     #highlight-two {
-        grid-column: 2 / 3;
-    }
-
-    #hightlight-three {
-        grid-column: 3 / 4;
-    }
-
-    #highlight-four {
         grid-column: 1 / 2;
     }
 
-    #hightlight-five {
+    #hightlight-three {
         grid-column: 2 / 3;
     }
 
+    #highlight-four {
+        grid-column: 3 / 4;
+    }
+
+    #hightlight-five {
+        grid-column: 1 / 2;
+    }
+
     #highlight-six {
+        grid-column: 2 / 3;
+    }
+
+    #highlight-seven {
         grid-column: 3 / 4;
     }
 
