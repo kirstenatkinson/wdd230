@@ -29,9 +29,9 @@
         flex: 1 1 100%;
     }
 
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+
+    #hero-image img {
+        width: 100%;
     }
 
     h1,
@@ -41,14 +41,6 @@
 
     #responsive-menu {
         display: none;
-    }
-
-    #card-one {
-        grid-column: 1 / 2;
-    }
-
-    #card-two {
-        grid-column: 2 / 3;
     }
 
 }

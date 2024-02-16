@@ -15,6 +15,10 @@ footer {
     margin-right: auto;
 }
 
+header {
+    padding-bottom: 1rem;
+}
+
 nav {
     width: 100%;
     display: none;
@@ -29,6 +33,27 @@ h1 {
 
 main {
     margin: auto;
+}
+
+.hero {
+    width: 100%;
+    position: relative;
+}
+
+#hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+#hero-text {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    padding: .5rem;
+    background-color: rgba(255, 255, 255, .8);
+    color: #A15C38;
+
 }
 
 section {
@@ -99,7 +124,6 @@ nav.open {
     background-color: #F7F1F0;
     color: #A15C38;
 }
-
 
 #portrait {
     display: block;
