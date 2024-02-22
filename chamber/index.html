@@ -118,6 +118,19 @@
         </section>
         <section id="weather">
             <h2>Weather Forcast</h2>
+            <div id="wind-chill">
+                <h3>Wind Chill Calculator</h3>
+                <div id="wind-chill-inputs">
+                    <label for="tempurature">Temperature (F) </label>
+                    <input type="text" id="tempurature" placeholder="45">
+                    <label for="wind-speed">Wind Speed (MPH) </label>
+                    <input type="text" id="wind-speed" placeholder="10">
+                    <button type="submit" id="calculate-chill">Calculate</button>
+                </div>
+                <div id="wind-chill-output">
+                    <p id="wind-chill-output-text"></p>
+                </div>
+            </div>
             <a class="weatherwidget-io" href="https://forecast7.com/en/59d3318d07/stockholm/" data-label_1="STOCKHOLM"
                 data-label_2="WEATHER" data-theme="original">STOCKHOLM WEATHER</a>
             <script>
@@ -150,6 +163,7 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/responsiveMenu.js"></script>
     <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
 
 </body>
 
