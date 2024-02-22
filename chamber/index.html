@@ -32,8 +32,12 @@
 
 <body>
     <header>
-        <img id="hero-img" src="images/social-media-image.jpg" alt="Stockholm">
-        <a href="#"><img id="logo" src="images/logo.png" alt="logo"></a>
+        <picture id="hero-img">
+            <source media="(max-width: 500px)" srcset="images/wdd230-org-small.webp">
+            <source media="(max-width: 800px)" srcset="images/wdd230-org-medium.webp">
+            <img src="images/wdd230-org-large.webp" alt="Chamber of Commerce">
+        </picture>
+        <a href="#"><img id="logo" src="images/logo.webp" alt="logo"></a>
         <button id="color-mode"></button>
         <button id="responsive-menu"></button>
         <nav id="navigation">
@@ -78,15 +82,15 @@
         <section id="opportunities">
             <h2>Opportunities</h2>
             <div id="opportunity-one">
-                <img class="responsive" id="opportunity-one-img" src="images/midsommar.jpg" alt="Midsommar Pole">
+                <img class="responsive" id="opportunity-one-img" src="images/midsommar.webp" alt="Midsommar Pole">
                 <h3>Midsommar</h3>
             </div>
             <div id="opportunity-two">
-                <img class="responsive" id="opportunity-two-img" src="images/swedish-flag.jpg" alt="Swedish Flag">
+                <img class="responsive" id="opportunity-two-img" src="images/swedish-flag.webp" alt="Swedish Flag">
                 <h3>National Day</h3>
             </div>
             <div id="opportunity-three">
-                <img class="responsive" id="opportunity-three-img" src="images/valborg.jpg" alt="Valborg fire">
+                <img class="responsive" id="opportunity-three-img" src="images/valborg.webp" alt="Valborg fire">
                 <h3>Valborg</h3>
             </div>
         </section>
@@ -104,17 +108,17 @@
                     events, members can effectively "get on the map" and position themselves for sustained growth and
                     success in the vibrant market of Stockholm.</p>
             </div>
-            <img id="map-img" src="images/orange-shop.jpg" alt="man having a fika">
+            <img id="map-img" src="images/orange-shop.webp" alt="man having a fika">
         </section>
         <section id="join-community">
             <h2>Join the Community</h2>
             <img id="hightlight-one" src="images/skansen.jpg" alt="Skansen">
-            <img id="hightlight-two" src="images/hutorget.jpg" alt="Hötorget">
+            <img id="hightlight-two" src="images/hutorget.webp" alt="Hötorget">
             <img id="hightlight-three" src="images/ostbutiken.jpg" alt="Ostbutiken Stockholm">
             <img id="hightlight-four" src="images/stadshuset.jpg" alt="Stadshuset">
-            <img id="hightlight-five" src="images/vasamuseet.jpg" alt="Vasamuseet">
-            <img id="hightlight-six" src="images/abbamuseet.jpg" alt="Abbamuseet">
-            <img id="highlight-seven" src="images/cafe-schweizer.jpg" alt="Café Schweizer">
+            <img id="hightlight-five" src="images/vasamuseet.webp" alt="Vasamuseet">
+            <img id="hightlight-six" src="images/abbamuseet.webp" alt="Abbamuseet">
+            <img id="highlight-seven" src="images/cafe-schweizer.webp" alt="Café Schweizer">
         </section>
         <section id="weather">
             <h2>Weather Forcast</h2>
