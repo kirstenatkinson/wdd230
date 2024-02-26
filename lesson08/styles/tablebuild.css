@@ -1,0 +1,37 @@
+caption {
+    caption-side: bottom;
+}
+
+table {
+    width: 80%;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border: .1rem solid rgb(24, 94, 24);
+}
+
+thead {
+    background-color: rgb(24, 94, 24);
+    color: white;
+}
+
+th {
+    padding: 1rem;
+}
+
+td {
+    padding: 1.5rem;
+    text-align: center;
+    border: .1rem solid rgb(24, 94, 24);
+}
+
+thead tr:nth-child(2) th {
+    background-color: rgb(66, 154, 66);
+}
+
+thead tr:nth-child(2) th:first-child {
+    background-color: rgb(24, 94, 24);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(240, 255, 240);
+}
