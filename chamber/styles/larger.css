@@ -67,4 +67,18 @@
         margin-right: auto;
         padding-top: 1rem;
     }
+
+    #discover-main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    #discover-sidebar {
+        grid-column: 1 / 2;
+        padding-right: 1rem;
+    }
+
+    #discover-pictures {
+        grid-column: 2 / 3;
+    }
 }

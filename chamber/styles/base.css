@@ -193,6 +193,16 @@ h2 {
     object-fit: cover;
 }
 
+.discover-responsive {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+caption {
+    margin-bottom: 5rem;
+}
+
 #opportunity-one,
 #opportunity-two,
 #opportunity-three {
