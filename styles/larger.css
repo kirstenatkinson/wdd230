@@ -29,6 +29,10 @@
         flex: 1 1 100%;
     }
 
+    #main-nav ul li a {
+        font-size: 1.25rem;
+        padding: 30px;
+    }
 
     #hero-image img {
         width: 100%;
