@@ -6,13 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Kirsten Atkinson">
-    <meta name="description" content="Submit a page feedback form.">
+    <meta name="description" content="Form submission confirmation.">
 
     <!-- social media meta tags -->
-    <meta property="og:title" content="Kirsten Atkinson WDD230 Page Feedback">
+    <meta property="og:title" content="Kirsten Atkinson Homepage">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://kirstenatkinson.github.io/wdd230/images/utah.png">
-    <meta property="og:url" content="https://kirstenatkinson.github.io/wdd230/form.html">
+    <meta property="og:url" content="https://kirstenatkinson.github.io/wdd230">
 
     <!-- Google Font Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,10 +23,9 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/form.css">
 
     <link rel="icon" href="favicon.ico">
-    <title>Feedback Form - Kirsten Atkinson - WDD 230</title>
+    <title>Form Submission Confirmation</title>
 
 </head>
 
@@ -52,34 +51,10 @@
             <h1>KIRSTEN ATKINSON</h1>
             <h2>WDD 230: Web Frontend Development</h2>
         </section>
-        <hr>
+
     </header>
     <main>
-        <div id="form-message"></div>
-        <h1>Submit Feedback</h1>
-        <p id="all-fields-required">All fields required</p>
-
-        <form method="get" action="record.html">
-            <fieldset>
-                <legend>Account Information</legend>
-                <label>Username <input type="text" name="username" id="username" required></label>
-                <label>Password <input type="password" name="password" id="password" pattern="[A-Za-z0-9].{8,}"
-                        placeholder="minimun of 8 characters" required></label>
-                <label>Confirm Password <input type="password" name="confirm-password" id="confirm-password"
-                        required></label>
-                <label>Email <input type="email" name="email" id="email" placeholder="your byui.edu email"
-                        pattern="[a-zA-Z0-9_.\-]+@byui.edu" required title="A valid byui.edu email address"></label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Feedback</legend>
-                <label>How would you rate this page?</label>
-                <div id="current-range-value">5</div>
-                <input type="range" name="rating" id="rating" min="0" max="10" value="5" step="1">
-            </fieldset>
-
-            <input type="submit" id="submit-feedback" value="Send Feedback">
-        </form>
+        <p>Form submitted. Thank you for your feedback!</p>
     </main>
 
     <footer>
@@ -89,7 +64,7 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/responsiveMenu.js"></script>
-    <script src="scripts/form.js"></script>
+    <script src="scripts/pageVisits.js"></script>
 </body>
 
 </html>
