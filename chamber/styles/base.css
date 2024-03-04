@@ -154,9 +154,9 @@ nav.open {
 }
 
 #color-mode {
-    color: var(--color-mode-text);
+    color: var(--color-mode-background);
     background-color: transparent;
-    border: .1rem solid var(--color-mode-text);
+    border: .1rem solid var(--color-mode-background);
     position: absolute;
     top: 2rem;
     right: 6rem;
