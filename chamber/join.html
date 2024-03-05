@@ -10,7 +10,7 @@
         content="Come and be a part of our business community here in Stockholm! We work together to foster success and connection between our businesses and the thousands of world travelers who walk our streets.">
 
     <!-- social media meta tags -->
-    <meta property="og:title" content="Stockolm Chamber of Commerce - Home">
+    <meta property="og:title" content="Stockolm Chamber of Commerce - Join">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://kirstenatkinson.github.io/wdd230/chamber/images/social-media-image.jpg">
     <meta property="og:url" content="https://kirstenatkinson.github.io/wdd230/chamber/">
@@ -50,14 +50,12 @@
             </ul>
         </nav>
         <div class="hero-text">
-            <h1>Stockholm Chamber of Commerce</h1>
-            <button id="hero-button">Join Today</button>
+            <h1>Join the Commerce Today</h1>
         </div>
     </header>
 
-    <main>
-        <h1>Join Stockholm's Chamber of Commerce Today</h1>
-        <form method="get" action="thankyou.html">
+    <main id="form-main">
+        <form method="get" action="thankyou.html" id="join-form">
             <fieldset id="join-contact-info">
                 <legend>Contact Information</legend>
                 <label>First Name<input type="text" required name="fname" id="form-fname" autofocus></label>
@@ -75,12 +73,12 @@
                         id="form-business"></label>
                 <label>Business Description<input type="text" name="business-description"
                         id="form-business-description"></label>
-                <label><select>
+                <label>Membership Type<select>
                         <option>Please select</option>
                         <option>Non-Profit</option>
-                        <option>Bronze Membership</option>
-                        <option>Silver Membership</option>
-                        <option>Gold Membership</option>
+                        <option>Bronze</option>
+                        <option>Silver</option>
+                        <option>Gold</option>
                     </select></label>
             </fieldset>
             <input type="hidden">
@@ -88,24 +86,42 @@
         </form>
 
         <section id="membership-types">
+            <h2>Memberships</h2>
             <div id="nonprofit">
-                <h3>Non-Profit Membership</h3>
-                <p>For non-profit organizations</p>
-                <p><span class="display-price">0 SEK</span>/mo</p>
+                <h3>Non-Profit</h3>
+                <p>For non-profit organizations.</p>
+                <ul>
+                    <li>VIP scheduling for events</li>
+                    <li>Priority location on our advertising platforms</li>
+                    <li>Front page featuring in our tourist brochures</li>
+                </ul>
+                <p><span clasSs="display-price">0 SEK</span>/mo</p>
             </div>
             <div id="bronze">
                 <h3>Bronze</h3>
-                <p>For non-profit organizations</p>
+                <ul>
+                    <li>Gauranteed booth in 3 events</li>
+                    <li>Reduced fees for usage of our advertising platforms</li>
+                    <li>Storefront location added to our tourist map</li>
+                </ul>
+
                 <p><span class="display-price">200 SEK</span>/mo</p>
             </div>
             <div id="silver">
                 <h3>Silver</h3>
-                <p>For non-profit organizations</p>
+                <li>Gauranteed booth in 5 events</li>
+                <li>Unlimited acces to our advertising platforms</li>
+                <li>Storefront location added to our tourist map</li>
+                <li>Featured in our tourist brochures</li>
+
                 <p><span class="display-price">400 SEK</span>/mo</p>
             </div>
             <div id="gold">
                 <h3>Gold</h3>
-                <p>For non-profit organizations</p>
+                <li>Unlimited event bookings for a booth</li>
+                <li>Unlimited acces to our advertising platforms</li>
+                <li>Storefront location spotlighted on our tourist map</li>
+                <li>Front page featuring in our tourist brochures</li>
                 <p><span class="display-price">800 SEK</span>/mo</p>
             </div>
         </section>
@@ -134,7 +150,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/responsiveMenu.js"></script>
     <script src="scripts/dark-mode.js"></script>
-    <script src="scripts/windchill.js"></script>
 
 </body>
 

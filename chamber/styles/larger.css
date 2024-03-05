@@ -81,4 +81,43 @@
         grid-column: 2 / 3;
         padding-left: 2rem;
     }
+
+    #form-main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    #form-main h1 {
+        grid-column: 1 / 3;
+    }
+
+    #form-main form {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    #form-main #membership-types {
+        display: block;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        margin-top: 0;
+    }
+
+    #form-main h2 {
+        font-size: 2rem;
+    }
+
+    #membership-types div h3 {
+        font-size: 1.25rem;
+    }
+
+    #membership-types div p,
+    #membership-types div ul li {
+        font-size: 1rem;
+    }
+
+    .display-price {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
 }
