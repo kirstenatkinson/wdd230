@@ -380,8 +380,8 @@ footer {
     text-align: center;
 }
 
-#membership-types div p,
-#membership-types div ul li {
+#non-profit p,
+#non-profit li {
     color: var(--accent);
 }
 

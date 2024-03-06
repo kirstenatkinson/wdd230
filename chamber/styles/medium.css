@@ -187,6 +187,6 @@
     }
 
     #gold {
-        grid-column: 2 / 3S;
+        grid-column: 2 / 3;
     }
 }
