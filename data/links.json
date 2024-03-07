@@ -1,0 +1,126 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url": "lesson01/holygrail.html",
+                    "title": "Page Layout Review"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "lesson02/design.html",
+                    "title": "Web Design Principles"
+                },
+                {
+                    "url": "lesson02/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "lesson02/design-principles.html",
+                    "title": "Design Principles Document"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "images/css-selector-results.png",
+                    "title": "CSS Selector Results"
+                },
+                {
+                    "url": "lesson03/psuedo-elements.html",
+                    "title": "Pseudo Elements"
+                },
+                {
+                    "url": "https://codepen.io/kirstenatkinson/pen/abMVdpQ",
+                    "title": "Responsive Hamburger Menu"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://codepen.io/kirstenatkinson/pen/GRexwQO",
+                    "title": "Pseudo Class Fun"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "lesson05/bom.html",
+                    "title": "BOM Application"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "lesson06/images/landscape.webp",
+                    "title": "WebP Landscape"
+                },
+                {
+                    "url": "lesson06/responsive-images.html",
+                    "title": "Responsive Images"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "lesson07/lazyload.html",
+                    "title": "Lazy Loading Activity"
+                },
+                {
+                    "url": "lesson07/bom-localstorage.html",
+                    "title": "JS localStorage"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "lesson08/tablebuild.html",
+                    "title": "Table Build"
+                },
+                {
+                    "url": "lesson08/index.html",
+                    "title": "Forms"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url": "lesson09/prophets.html",
+                    "title": "Prophets Fetch()"
+                },
+                {
+                    "url": "lesson09/new-ward-members.json",
+                    "title": "New Ward Members JSON file"
+                }
+            ]
+        },
+        {
+            "lesson": "10",
+            "links": [
+                {
+                    "url": "lesson10/weather.html",
+                    "title": "OpenWeatherMap API"
+                }
+            ]
+        }
+    ]
+}
