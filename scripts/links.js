@@ -18,7 +18,7 @@ function displayLinks(weeks) {
             let activityLink = document.createElement('a');
             activityLink.setAttribute('href', `${link.url}`);
             activityLink.setAttribute('target', '_blank');
-            activityLink.textContent = `${title}`;
+            activityLink.textContent = link.title;
             listWeek.appendChild(activityLink);
         })
 
