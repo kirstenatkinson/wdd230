@@ -1,0 +1,93 @@
+{
+    "members": [
+        {
+            "familyName": "Jones",
+            "moveInDate": "03-05-2017",
+            "numberInFamily": 6,
+            "visitedByBishopric": true,
+            "familyMembers": [
+                {
+                    "name": "Bob",
+                    "gender": "male",
+                    "birthdate": "11-02-1975"
+                },
+                {
+                    "name": "Sarah",
+                    "gender": "female",
+                    "birthdate": "10-05-1978"
+                },
+                {
+                    "name": "Derek",
+                    "gender": "male",
+                    "birthdate": "11-02-1998"
+                },
+                {
+                    "name": "Lilah",
+                    "gender": "female",
+                    "birthdate": "11-02-2000"
+                },
+                {
+                    "name": "Thomas",
+                    "gender": "male",
+                    "birthdate": "11-02-2003"
+                },
+                {
+                    "name": "Caleb",
+                    "gender": "male",
+                    "birthdate": "01-15-2006"
+                }
+            ]
+        },
+        {
+            "familyName": "Olsson",
+            "moveInDate": "02-05-1980",
+            "numberInFamily": 2,
+            "visitedByBishopric": true,
+            "familyMembers": [
+                {
+                    "name": "Emmet",
+                    "gender": "male",
+                    "birthdate": "08-02-1950"
+                },
+                {
+                    "name": "Matilda",
+                    "gender": "female",
+                    "birthdate": "10-05-1957"
+                }
+            ]
+        },
+        {
+            "familyName": "Kaaria",
+            "moveInDate": "11-28-2023",
+            "numberInFamily": 5,
+            "visitedByBishopric": false,
+            "familyMembers": [
+                {
+                    "name": "Rob",
+                    "gender": "male",
+                    "birthdate": "11-02-1975"
+                },
+                {
+                    "name": "Maria",
+                    "gender": "female",
+                    "birthdate": "10-05-1978"
+                },
+                {
+                    "name": "Joseph",
+                    "gender": "male",
+                    "birthdate": "11-02-1998"
+                },
+                {
+                    "name": "Hanna",
+                    "gender": "female",
+                    "birthdate": "11-02-2004"
+                },
+                {
+                    "name": "Matilda",
+                    "gender": "female",
+                    "birthdate": "11-02-2004"
+                }
+            ]
+        }
+    ]
+}
