@@ -391,9 +391,14 @@ footer {
     font-weight: bold;
 }
 
-#directory {
+.directory-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.directory-list {
+    display: flex;
+    flex-direction: column;
 }
 
 #directory div {
@@ -404,6 +409,7 @@ footer {
     padding: 1rem;
     background-color: var(--main-color);
 }
+
 
 #directory div img {
     object-fit: cover;
