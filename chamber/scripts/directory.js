@@ -29,6 +29,7 @@ const displayMembers = (members) => {
         //Member website url
         let url = document.createElement('a');
         url.setAttribute('href', `${member.url}`);
+        url.textContent = `${member.url}`;
 
         //Member image
         let image = document.createElement('img');

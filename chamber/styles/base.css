@@ -409,4 +409,5 @@ footer {
     object-fit: cover;
     height: 10rem;
     width: 100%;
+    border-radius: .5rem;
 }
