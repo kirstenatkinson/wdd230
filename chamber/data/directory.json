@@ -1,0 +1,52 @@
+{
+    "members": [
+        {
+            "name": "Abbamuseet",
+            "address": "Djurgårdsvägen 68, 115 21 Stockholm, Sweden",
+            "phone-number": "+46 771 793 336",
+            "url": "https://abbathemuseum.com/",
+            "image": "images/abbamuseet.webp",
+            "level": "Silver"
+        },
+        {
+            "name": "Café Schweizer",
+            "address": "Västerlånggatan 9, 111 29 Stockholm, Sweden",
+            "phone-number": "+46 8 411 51 77",
+            "url": "https://schweizer.se/",
+            "image": "images/cafe-schweizer.webp",
+            "level": "Bronze"
+        },
+        {
+            "name": "Ostbutiken Stockholm",
+            "address": "Odengatan 33, 113 51 Stockholm, Sweden",
+            "phone-number": "+46 8 545 913 40",
+            "url": "http://ostbutikenodengatan.se/",
+            "image": "images/ostbutiken.jpg",
+            "level": "Silver"
+        },
+        {
+            "name": "Skansen",
+            "address": "Djurgårdsslätten 49-51, 115 21 Stockholm, Sweden",
+            "phone-number": "+46 8 442 82 00",
+            "url": "https://www.skansen.se/",
+            "image": "images/skansen.webp",
+            "level": "Non-profit"
+        },
+        {
+            "name": "Stadshuset",
+            "address": "Hantverkargatan 1, 111 52 Stockholm, Sweden",
+            "phone-number": "+46 8 508 290 00",
+            "url": "https://stadshuset.stockholm/",
+            "image": "images/stadshuset.jpg",
+            "level": "Non-profit"
+        },
+        {
+            "name": "Vasamuseet",
+            "address": "Galärvarvsvägen 14, 115 21 Stockholm, Sweden",
+            "phone-number": "+46 8 519 548 80",
+            "url": "https://www.vasamuseet.se/",
+            "image": "images/vasamuseet.webp",
+            "level": "Gold"
+        }
+    ]
+}
