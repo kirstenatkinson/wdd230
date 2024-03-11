@@ -390,3 +390,21 @@ footer {
     font-size: 2rem;
     font-weight: bold;
 }
+
+#directory {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#directory div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    width: 80%;
+    padding: 1rem;
+    border: .5rem, solid, var(--main-color);
+}
+
+#directory div img {
+    width: 50%;
+}
