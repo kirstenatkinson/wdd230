@@ -24,7 +24,7 @@ const displayMembers = (members) => {
 
         //Member phone number
         let phoneNumber = document.createElement('p');
-        phoneNumber.textContent = member.phone - number;
+        phoneNumber.textContent = member.phoneNumber;
 
         //Member website url
         let url = document.createElement('a');
