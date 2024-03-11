@@ -402,9 +402,11 @@ footer {
     margin-bottom: 1rem;
     width: 80%;
     padding: 1rem;
-    border: .5rem, solid, var(--main-color);
+    background-color: var(--main-color);
 }
 
 #directory div img {
-    width: 50%;
+    object-fit: cover;
+    height: 10rem;
+    width: 100%;
 }

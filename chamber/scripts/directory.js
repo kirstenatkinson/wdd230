@@ -46,6 +46,7 @@ const displayMembers = (members) => {
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(phoneNumber);
+        card.appendChild(url);
         card.appendChild(level);
 
         directory.appendChild(card);

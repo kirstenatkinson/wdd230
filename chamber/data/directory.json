@@ -17,6 +17,14 @@
             "level": "Bronze"
         },
         {
+            "name": "Jafaris Donuts",
+            "address": "Drottningsgatan 13 Stockholm, Sweden",
+            "phoneNumber": "+46 70-576 36 46",
+            "url": "https://www.jafarisdonuts.se/",
+            "image": "images/jafaris.jpg",
+            "level": "Gold"
+        },
+        {
             "name": "Ostbutiken Stockholm",
             "address": "Odengatan 33, 113 51 Stockholm, Sweden",
             "phoneNumber": "+46 8 545 913 40",
