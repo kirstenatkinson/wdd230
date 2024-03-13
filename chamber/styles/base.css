@@ -385,6 +385,12 @@ footer {
     color: var(--accent);
 }
 
+#directory-buttons {
+    margin: 1rem auto;
+    padding: 0.5rem;
+    text-align: center;
+}
+
 .display-price {
     color: var(--accent);
     font-size: 2rem;
@@ -396,19 +402,45 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-.directory-list {
-    display: flex;
-    flex-direction: column;
-}
-
-#directory div {
+.directory-grid div {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
     width: 80%;
     padding: 1rem;
-    background-color: var(--main-color);
+    border: .25rem solid var(--main-color);
+    border-radius: 2rem;
+    box-shadow: 0 0 5px #616161;
 }
+
+.directory-list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.directory-list div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+}
+
+.directory-list div>* {
+    margin: 0 1rem;
+}
+
+.directory-list div img {
+    display: none;
+}
+
+.directory-list div:nth-child(even) {
+    background-color: #e6b683;
+}
+
+.directory-list div:nth-child(odd) {
+    background-color: #ead2b9;
+}
+
 
 
 #directory div img {
