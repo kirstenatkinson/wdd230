@@ -73,8 +73,12 @@
 
         <section class="card" id="card-two">
             <h3>Information</h3>
-            <p>Weather: cold</p>
-            <p><span class="visits-label">Page visits: </span><span class="visits"></span></p>
+            <div id="main-weather">
+                <img id="weather-icon" src="" alt="">
+                <p id="current-temp"></p>
+            </div>
+            <p id="main-visits"><span class="visits-label" id="#main-visits">Page visits: </span><span
+                    class="visits"></span></p>
         </section>
 
         <iframe
@@ -92,6 +96,7 @@
     <script src="scripts/responsiveMenu.js"></script>
     <script src="scripts/pageVisits.js"></script>
     <script src="scripts/links.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 
 </html>
