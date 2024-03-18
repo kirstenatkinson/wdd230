@@ -342,6 +342,11 @@ footer {
     list-style-type: none;
 }
 
+#footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 #diversity-chart {
     object-fit: contain;
 }
