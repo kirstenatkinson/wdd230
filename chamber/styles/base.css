@@ -191,6 +191,10 @@ h2 {
     font-size: 2rem;
 }
 
+.hide {
+    display: none;
+}
+
 .responsive {
     width: 100%;
     height: 100px;
@@ -252,34 +256,6 @@ h2 {
 #join-community>img {
     width: 100%;
     padding: 1rem;
-}
-
-#hightlight-one {
-    grid-column: 1 / 3;
-}
-
-#highlight-two {
-    grid-column: 1 / 2;
-}
-
-#hightlight-three {
-    grid-column: 2 / 3;
-}
-
-#highlight-four {
-    grid-column: 1 / 2;
-}
-
-#hightlight-five {
-    grid-column: 2 / 3;
-}
-
-#highlight-six {
-    grid-column: 1 / 2;
-}
-
-#highlight-seven {
-    grid-column: 2 / 3;
 }
 
 #weather>h2 {
