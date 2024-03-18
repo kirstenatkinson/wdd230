@@ -195,6 +195,27 @@ h2 {
     display: none;
 }
 
+#meet-and-greet {
+    background-color: var(--main-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+#banner-toggle {
+    background-color: transparent;
+    color: white;
+    border: .1rem solid white;
+    border-radius: 2rem;
+    padding: .75rem;
+}
+
+#banner-toggle:hover {
+    background-color: white;
+    color: var(--main-color);
+    transition: 1s;
+}
+
 .responsive {
     width: 100%;
     height: 100px;
@@ -347,11 +368,15 @@ footer {
     text-decoration: none;
 }
 
+
+/*Discover page */
 #diversity-chart {
     object-fit: contain;
 }
 
 
+
+/*Join us page */
 #form-main fieldset {
     margin-bottom: 2rem;
     max-width: 40rem;
@@ -446,6 +471,7 @@ footer {
 }
 
 
+/*Directory page*/
 #directory-buttons {
     margin: 1rem auto;
     padding: 0.5rem;
