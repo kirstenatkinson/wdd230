@@ -61,8 +61,10 @@
     }
 
     #api-weather {
-        display: flex;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
     }
+
 
     #map-img {
         height: 40rem;

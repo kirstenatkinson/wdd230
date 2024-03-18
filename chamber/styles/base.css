@@ -332,6 +332,7 @@ h2 {
 #three-day-forcast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
 }
 
 #three-day-forcast div:nth-child(odd) {
