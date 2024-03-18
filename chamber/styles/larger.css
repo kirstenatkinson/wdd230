@@ -60,6 +60,10 @@
         padding-top: 0;
     }
 
+    #api-weather {
+        display: flex;
+    }
+
     #map-img {
         height: 40rem;
         width: auto;

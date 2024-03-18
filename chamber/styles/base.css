@@ -5,7 +5,7 @@
     --main-color: #da811b;
     --text-on-color: white;
     --background-color: white;
-    --accent: #3C6E84;
+    --accent: rgb(110, 179, 209);
     --color-mode-background: white;
     --color-mode-text: black;
     --valid: rgb(181, 218, 181);
@@ -305,15 +305,17 @@ h2 {
 }
 
 #current-icon {
-    grid-row: 2 / 3;
-    width: 100%;
+    grid-column: 2 / 3;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #current-degrees {
-    grid-row: 3 / 4;
+    grid-column: 3 / 4;
     font-weight: bold;
     font-size: 2rem;
-    margin: 1rem 1rem 0 0;
+    padding: 1rem;
 }
 
 #current-description {
@@ -328,7 +330,29 @@ h2 {
 }
 
 #three-day-forcast {
-    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#three-day-forcast div:nth-child(odd) {
+    background-color: #487b91;
+}
+
+#three-day-forcast div:nth-child(even) {
+    background-color: #5690a8;
+}
+
+.weather-day {
+    padding: 0 1rem 0;
+}
+
+.weather-day p {
+    text-align: center;
+}
+
+.weather-day img {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
