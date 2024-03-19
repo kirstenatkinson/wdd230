@@ -279,12 +279,14 @@ h2 {
     padding: 1rem;
 }
 
-#weather>h2 {
-    text-align: center;
+#weather {
+    background-color: var(--accent);
 }
 
-#api-weather {
-    background-color: var(--accent);
+#weather>h2 {
+    text-align: center;
+    color: white;
+    padding: 1rem;
 }
 
 #current-temp {
@@ -351,6 +353,12 @@ h2 {
 .weather-day img {
     margin-left: auto;
     margin-right: auto;
+}
+
+#wind-chill-output {
+    color: white;
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
 footer {

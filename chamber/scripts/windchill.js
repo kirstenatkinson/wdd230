@@ -1,30 +1,28 @@
-const tempuratureInput = document.querySelector('#tempurature');
-const windSpeedInput = document.querySelector('#wind-speed');
-const button = document.querySelector('#calculate-chill');
+const dataUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat=59.334591&lon=18.063240&appid=b5f961cb2b8355fb880eebbbe376e795&units=imperial';
 const output = document.querySelector('#wind-chill-output');
 
-button.addEventListener('click', () => {
-    console.log('Button Works');
-
-    const tempurature = parseFloat(tempuratureInput.value);
-    const windSpeed = parseFloat(windSpeedInput.value);
-
-    if (isNaN(tempurature) || isNaN(windSpeed)) {
-        console.log('Filter successful!');
-        output.textContent = 'Please enter valid temperature and wind speed (check to see if you have any letters in the input)';
+async function apiFetch() {
+    try {
+        const response = await fetch(dataUrl);
+        if (response.ok) {
+            const data = await response.json();
+            calculateWindChill(data.list[0].main.temp, data.list[0].wind.speed);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
     }
-    else {
-        const windChill = calculateWindChill(tempurature, windSpeed);
-        output.textContent = `Calculated wind chill: ${windChill}`;
-    }
-
-});
+}
 
 function calculateWindChill(tempurature, windSpeed) {
     if (tempurature > 50 || windSpeed < 4.8) {
-        return 'N/A';
+        output.textContent = 'Wind Chill: N/A'
     }
     else {
-        return 35.74 + (0.6215 * tempurature) - (35.75 * Math.pow(windSpeed, 0.16)) + (0.4275 * tempurature * Math.pow(windSpeed, 0.16));
+        const windChill = 35.74 + (0.6215 * tempurature) - (35.75 * Math.pow(windSpeed, 0.16)) + (0.4275 * tempurature * Math.pow(windSpeed, 0.16));
+        output.textContent = `Wind chill: ${windChill}`;
     }
 }
+
+apiFetch()
