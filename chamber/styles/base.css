@@ -317,10 +317,10 @@ h2 {
     padding: 1rem;
 }
 
-#current-description {
-    grid-column: 3 / 4;
+figcaption {
     margin: 0;
     text-align: center;
+    color: white;
 }
 
 #three-day-forcast p,

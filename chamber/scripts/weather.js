@@ -27,11 +27,8 @@ function displayResults(data) {
     currentTemp.innerHTML = `${data.list[0].main.temp}&deg;F`;
 
 
-    //Create description for current temperature        
-    const currentDescription = (document.createElement('p'));
-    currentDescription.setAttribute('id', 'current-description');
+    //Create description to add to figure caption       
     let desc = data.list[0].weather[0].description;
-    currentDescription.textContent = `${desc}`;
 
 
     //Create icon for current temperature
@@ -41,9 +38,15 @@ function displayResults(data) {
     currentIcon.setAttribute('alt', `${desc} icon`);
     currentIcon.setAttribute('id', 'current-icon')
 
-    currentTempOutput.appendChild(currentIcon);
+    //Create figure
+    const figure = document.createElement('figure');
+    const figCaption = document.createElement('figcaption');
+    figCaption.textContent = `${desc}`;
+
+    currentTempOutput.appendChild(figure);
+    figure.appendChild(currentIcon);
+    figure.appendChild(figCaption);
     currentTempOutput.appendChild(currentTemp);
-    currentTempOutput.appendChild(currentDescription);
 
     //Call function for the first three days
     firstThreeDays(data.list)
