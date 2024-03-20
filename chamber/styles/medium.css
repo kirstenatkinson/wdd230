@@ -99,11 +99,6 @@
         grid-column: 1 / 4;
     }
 
-    #join-community>img {
-        width: 100%;
-        padding: 1rem;
-    }
-
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
