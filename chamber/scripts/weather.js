@@ -9,13 +9,11 @@ async function apiFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
             displayResults(data);
         } else {
             throw Error(await response.text());
         }
     } catch (error) {
-        console.log(error);
     }
 }
 
@@ -54,7 +52,6 @@ function displayResults(data) {
 
 function firstThreeDays(days) {
     for (let i = 0; i < days.length && i < 3; i++) {
-        console.log(days[i]);
 
         //Create day div
         const day = document.createElement('div');
