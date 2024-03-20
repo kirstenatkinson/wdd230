@@ -80,6 +80,16 @@
         top: 30%;
     }
 
+    #get-on-map {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    #map-img {
+        grid-column: 2 / 3;
+    }
+
     #join-community {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -87,7 +97,6 @@
 
     #join-community>h2 {
         grid-column: 1 / 4;
-        text-align: center;
     }
 
     #join-community>img {

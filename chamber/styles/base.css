@@ -238,18 +238,11 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
-#get-on-map {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
 #map-img {
-    grid-column: 2 / 3;
-    width: 100%;
+    width: 50%;
     border-radius: 50%;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #join-community {
@@ -259,11 +252,14 @@ h2 {
 
 #join-community>h2 {
     column-span: all;
+    text-align: center;
 }
 
 #join-community>img {
-    width: 100%;
+    height: 300px;
+    width: 250px;
     padding: 1rem;
+    object-fit: cover;
 }
 
 #weather {
