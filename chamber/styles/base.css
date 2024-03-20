@@ -2,10 +2,10 @@
     background-color: white;
     font-family: 'Roboto', sans-serif;
     color: black;
-    --main-color: #da811b;
+    --main-color: #995200;
     --text-on-color: white;
     --background-color: white;
-    --accent: rgb(110, 179, 209);
+    --accent: #3C6E84;
     --color-mode-background: white;
     --color-mode-text: black;
     --valid: rgb(181, 218, 181);
@@ -326,7 +326,7 @@ figcaption {
 }
 
 #three-day-forcast div:nth-child(even) {
-    background-color: #5690a8;
+    background-color: #2b4a57;
 }
 
 .weather-day {
