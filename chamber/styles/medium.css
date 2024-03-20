@@ -105,34 +105,6 @@
         padding: 1rem;
     }
 
-    #hightlight-one {
-        grid-column: 1 / 4;
-    }
-
-    #highlight-two {
-        grid-column: 1 / 2;
-    }
-
-    #hightlight-three {
-        grid-column: 2 / 3;
-    }
-
-    #highlight-four {
-        grid-column: 3 / 4;
-    }
-
-    #hightlight-five {
-        grid-column: 1 / 2;
-    }
-
-    #highlight-six {
-        grid-column: 2 / 3;
-    }
-
-    #highlight-seven {
-        grid-column: 3 / 4;
-    }
-
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
