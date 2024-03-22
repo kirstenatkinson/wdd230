@@ -179,4 +179,9 @@
     #gold {
         grid-column: 2 / 3;
     }
+
+    .directory-list div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
 }
