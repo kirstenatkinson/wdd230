@@ -21,7 +21,7 @@
             "address": "Drottningsgatan 13 Stockholm, Sweden",
             "phoneNumber": "+46 70-576 36 46",
             "url": "https://www.jafarisdonuts.se/",
-            "image": "images/jafaris.jpg",
+            "image": "images/jafaris.webp",
             "level": "Gold"
         },
         {
@@ -29,7 +29,7 @@
             "address": "Odengatan 33, 113 51 Stockholm, Sweden",
             "phoneNumber": "+46 8 545 913 40",
             "url": "http://ostbutikenodengatan.se/",
-            "image": "images/ostbutiken.jpg",
+            "image": "images/ostbutiken.webp",
             "level": "Silver"
         },
         {
@@ -45,7 +45,7 @@
             "address": "Hantverkargatan 1, 111 52 Stockholm, Sweden",
             "phoneNumber": "+46 8 508 290 00",
             "url": "https://stadshuset.stockholm/",
-            "image": "images/stadshuset.jpg",
+            "image": "images/stadshuset.webp",
             "level": "Non-profit"
         },
         {
