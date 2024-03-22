@@ -34,7 +34,7 @@ const displayMembers = (members) => {
         //Member image
         let image = document.createElement('img');
         image.setAttribute('src', member.image);
-        image.setAttribute('alt', `${member.image} image`)
+        image.setAttribute('alt', `${member.name} image`)
         image.setAttribute('loading', 'lazy');
 
         //Member level

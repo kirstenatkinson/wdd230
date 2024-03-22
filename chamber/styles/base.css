@@ -245,14 +245,7 @@ h2 {
     margin-left: auto;
 }
 
-#join-community {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    max-width: 100%;
-}
-
 #join-community>h2 {
-    column-span: all;
     text-align: center;
     width: 100%;
 }
