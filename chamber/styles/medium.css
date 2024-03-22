@@ -144,6 +144,12 @@
         font-size: 0.75rem;
     }
 
+    .discover-responsive:hover {
+        box-shadow: 0 0.5em 0.5em -0.4em var(--accent);
+        transform: translateY(-0.5rem);
+        transition: 1s;
+    }
+
 
     #membership-types {
         display: grid;

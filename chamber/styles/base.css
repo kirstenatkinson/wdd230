@@ -303,7 +303,7 @@ h2 {
     padding: 1rem;
 }
 
-figcaption {
+#current-temp figcaption {
     margin: 0;
     text-align: center;
     color: white;
@@ -357,9 +357,14 @@ footer {
     list-style-type: none;
 }
 
+#footer-links ul li {
+    padding: .5rem .5rem .5rem 0;
+}
+
 #footer-links ul li a {
     color: white;
     text-decoration: none;
+    padding: .5rem .5rem .5rem 0;
 }
 
 
@@ -374,13 +379,6 @@ footer {
     object-fit: cover;
     margin-top: 2rem;
 }
-
-.discover-responsive:hover {
-    box-shadow: 0 0.5em 0.5em -0.4em var(--accent);
-    transform: translateY(-0.5rem);
-    transition: 1s;
-}
-
 
 
 /*Join us page */
@@ -439,6 +437,12 @@ footer {
     color: white;
     margin-left: .5rem;
     max-width: 300px;
+}
+
+#form-main #submit-join-request:hover {
+    background-color: var(--background-color);
+    color: var(--main-color);
+    border: .2rem solid var(--main-color);
 }
 
 #membership-types {
@@ -509,8 +513,18 @@ footer {
 
 .directory-list div {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
     margin: 0;
+}
+
+.directory-list div p {
+    font-size: 12px;
+    text-wrap: wrap;
+}
+
+.directory-list div a {
+    font-size: 12px;
 }
 
 .directory-list div>* {
