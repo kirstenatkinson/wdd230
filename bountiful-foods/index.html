@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kirsten Atkinson">
+    <meta name="description"
+        content="Enjoy your time on the sand with a cool, refreshing smoothie in hand. Or a delicious fruit basket. Either way, you deserve it.">
+    <title>Bountiful Foods</title>
+
+    <!-- social media tags -->
+    <meta property="og:title" content="Bountiful Foods Home">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://placehold.co/600x400">
+    <meta property="og:url" content="https://kirstenatkinson.github.io/wdd230/bountiful-foods">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+
+    <!-- Style References -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+
+    <!-- Scripts -->
+    <script defer src="scripts/responsiveMenu.js"></script>
+    <script defer src="scripts/getDates.js"></script>
+    <script defer src="scripts/weather.js"></script>
+
+    <!-- Favicon Link -->
+    <link rel="icon" href="">
+</head>
+
+<body>
+    <header>
+        <picture id="hero-img">
+            <source media="(max-width: 450px)" srcset="https://placehold.co/600x400">
+            <source media="(max-width: 800px)" srcset="https://placehold.co/600x400">
+            <img src="https://placehold.co/600x400" alt="Placeholder Img" loading="lazy">
+        </picture>
+        <a href="#"><img id="logo" src="https://placehold.co/600x400" alt="Bountiful Foods Coastal Fresh"
+                loading="lazy"></a>
+        <button id="responsive-menu" aria-lebel="Open Navigation"></button>
+        <nav id="navigation">
+            <ul>
+                <li><a href="order-drink.html">Custom Smoothies</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <div class="hero-cta">
+            <form action="order-drink.html"><button id="hero-button" aria-label="Order Now">Order Now</button></form>
+        </div>
+    </header>
+
+    <main>
+        <h1>Bountiful Foods: Where Coastal Meets Fresh</h1>
+        <p>Welcome to Bountiful Foods, your gateway to farm-fresh delights and custom-crafted smoothies along the
+            sun-kissed shores of Southern California! <br>Join us on a journey of flavor and freshness, where every sip
+            and every bite is a celebration of California's rich agricultural heritage.</p>
+        <section id="home-points">
+            <h2>Your Points</h2>
+            <div id="home-points-display"></div>
+        </section>
+        <section id="home-weather">
+            <h2>Carlsbad Weather Forcast</h2>
+            <div id="api-weather">
+                <div id="current-temp"></div>
+                <div id="three-day-forcast"></div>
+            </div>
+        </section>
+        <section id="home-locations">
+            <div id="home-la">
+                <h3>Los Angeles</h3>
+                <p>Nestled in the vibrant tapestry of Los Angeles, our Bountiful Foods store exudes a welcoming charm,
+                    offering a tranquil oasis amidst the urban hustle. Located in a neighborhood known for its eclectic
+                    mix of art galleries, trendy cafes, and boutique shops, our store sits within walking distance of
+                    the iconic Venice Beach Boardwalk, where visitors can soak up the sun or take a leisurely stroll
+                    along the bustling promenade.</p>
+                <img loading="lazy" src="https://placehold.co/600x400">
+            </div>
+            <div id="home-long-beach">
+                <h3>Long Beach</h3>
+                <p> Just a skip away from the beach action and iconic spots like the Queen Mary and Aquarium of the
+                    Pacific, our little haven is the go-to for locals and wanderers alike. So whether you're gearing up
+                    for a day of beach volleyball or just cruising along the boardwalk, grab a some fruit and a smoothie
+                    and soak in that coastal sun.</p>
+                <img loading="lazy" src="https://placehold.co/600x400">
+            </div>
+            <div id="home-newport">
+                <h3>Newport Beach</h3>
+                <p>Right by the sun-soaked sands of Newport Beach, our Bountiful Foods spot embodies those chill
+                    coastal vibes you're craving. Picture it: palm trees swaying, waves crashing, and you, strolling in
+                    for some seriously fresh fruit or a custom smoothie. With the beach just a stone's throw away and
+                    iconic spots like Newport Pier and Balboa Fun Zone within easy reach, our spot is the go-to for
+                    beach lovers and wanderers alike. So whether you're fueling up for a day of surf or simply soaking
+                    in the sun, swing by and let the good times roll.</p>
+                <img loading="lazy" src="https://placehold.co/600x400">
+            </div>
+            <div id="home-san-diego">
+                <h3>San Diego</h3>
+                <p>Next to sandy shores and iconic attractions like the renowned San Diego Zoo and
+                    lively Gaslamp Quarter, our little oasis is the ultimate hangout for locals and adventurers alike.
+                    Whether you're catching some rays or diving into the city scene, come chill at our San Diego
+                    location!
+                </p>
+                <img loading="lazy" src="https://placehold.co/600x400">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="attribution">
+            <h3>This content was provided to you by:</h3>
+            <ul>
+                <li><a href="https://www.fruityvice.com/">www.fruityvice.com</a></li>
+                <li><a href="https://openweathermap.org/">openweathermap.org</a></li>
+                <li><a href="https://chat.openai.com/">Chat GPT</a></li>
+                <li><a href="https://www.pexels.com/">pexels.com</a></li>
+            </ul>
+        </section>
+        <section id="social-media-links">
+            <h3>Follow our Social Media</h3>
+            <a href="https://www.instagram.com/"><img src="https://placehold.co/600x400" alt="Instagram"
+                    loading="lazy"></a>
+            <a href="https://www.facebook.com/"><img src="https://placehold.co/600x400" alt="Facebook"
+                    loading="lazy"></a>
+            <a href="https://www.https://www.tiktok.com"><img src="https://placehold.co/600x400" alt="Tik Tok"
+                    loading="lazy"></a>
+        </section>
+        <section id="contact">
+            <h3>Contact</h3>
+            <ul>
+                <li>(760) 729-7213</li>
+                <li>contact@bountifulfoods.com</li>
+                <li>745 Carlsbad Village Dr, Carlsbad, CA 92008</li>
+            </ul>
+        </section>
+        <section id="information">
+            <p id="copyrightName"></p>
+            <p id="lastModified"></p>
+        </section>
+    </footer>
+
+</body>
+
+</html>
