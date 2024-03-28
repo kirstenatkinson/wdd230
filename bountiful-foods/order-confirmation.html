@@ -26,6 +26,9 @@
 
     <!-- Scripts -->
     <script defer src="scripts/responsiveMenu.js"></script>
+    <script defer src="scripts/getDates.js"></script>
+    <script defer src="scripts/confirmOrder.js"></script>
+    <script defer src="scripts/confirmOrderTime.js"></script>
 
     <!-- Favicon Link -->
     <link rel="icon" href="">
@@ -49,15 +52,39 @@
             </ul>
         </nav>
         <div class="hero-cta">
-            <form action="order-drink.html"><button id="hero-button" aria-label="Order Now">Order Now</button></form>
+            <form action="order-drink.html"><button id="hero-button" aria-label="Order Another Drink">Order Another
+                    Drink</button></form>
         </div>
     </header>
 
     <main>
-        <h1>Thank you <span id=fname-confirmation></span>!</h1>
+        <h1>Thank you!</h1>
         <p>We have received your order. Our average wait time for pick-up is about 15 minutes. You will pay for your
-            drink when you pick it up. To avoid any confusion, lets review what you got:</p>
-        <p>*Payment will be received when the drink is picked up.</p>
+            drink when you pick it up. To avoid any confusion, let's review:</p>
+        <div id="confirm-contact-info">
+            <p><span id="fname-confirm"></span> <span id="lname-confirm"></span></p>
+            <p id="email-confirm"></p>
+            <p id="phone-confirm"></p>
+        </div>
+        <div id="confirm-order">
+            <p>1 Regular Smoothie</p>
+            <ul>
+                <li id="fruit-one-confirm"></li>
+                <li id="fruit-two-confirm"></li>
+                <li id="fruit-three-confirm"></li>
+            </ul>
+            <p id="special-instructions-confirm"></p>
+            <p id="order-received-time"></p>
+
+        </div>
+        <div id="order-nutrition">
+            <h2>Nutrional Value</h2>
+
+        </div>
+        <section id="confirmation-contact">
+            <h2>Something wrong with your order?</h2>
+            <h3>Call (760) 729-7213</h3>
+        </section>
     </main>
 
     <footer>

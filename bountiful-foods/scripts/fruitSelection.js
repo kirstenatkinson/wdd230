@@ -5,13 +5,15 @@ const fruitsArray = [];
 async function getFruits() {
     const response = await fetch(fruitURL);
     const data = await response.json();
-    displayInputs(data.fruits);
+    fruitsArray.push(data);
+    displayInputs(selectOptions);
 }
 
-const displayInputs = (fruits) => {
+const displayInputs = (selectOptions) => {
     selectOptions.forEach((select) => {
-        fruits.forEach((fruit) => {
+        fruitsArray[0].forEach((fruit) => {
             let option = document.createElement('option');
+            option.setAttribute('value', fruit.name);
             option.textContent = fruit.name;
             select.appendChild(option);
         })

@@ -26,6 +26,7 @@
 
     <!-- Scripts -->
     <script defer src="scripts/responsiveMenu.js"></script>
+    <script defer src="scripts/getDates.js"></script>
     <script defer src="scripts/fruitSelection.js"></script>
 
     <!-- Favicon Link -->
@@ -56,7 +57,7 @@
     <main>
         <h1>Customize your very own smoothie!</h1>
 
-        <form method="get" action="confirmation.html">
+        <form method="get" action="order-confirmation.html">
             <fieldset>
                 <legend>Contact Information</legend>
                 <label>First Name <input type="text" name="fname" id="form-fname" placeholder="John" required></label>
@@ -69,16 +70,20 @@
             <fieldset>
                 <legend>Choose Your Fruit</legend>
                 <label>Choose up to 3 different fruit</label>
-                <select id="form-fruit-one">
-                    <option>Please select</option>
+                <select id="form-fruit-one" name="fruit1">
+                    <option value="">Please select</option>
                 </select>
-                <select id="form-fruit-two"></select>
-                <select id="form-fruit-three"></select>
+                <select id="form-fruit-two" name="fruit2">
+                    <option value="">Please select</option>
+                </select>
+                <select id="form-fruit-three" name="fruit3">
+                    <option value="">Please select</option>
+                </select>
             </fieldset>
 
             <fieldset>
                 <legend>Special Instructions</legend>
-                <textarea id="form-special-instructions"></textarea>
+                <textarea id="form-special-instructions" name="special-instructions"></textarea>
             </fieldset>
             <input type="submit" id="form-submit" value="Place Order">
         </form>
