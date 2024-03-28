@@ -2,7 +2,7 @@
 const currentTempOutput = document.querySelector('#current-temp');
 const threeDayForcastOutput = document.querySelector('#three-day-forcast');
 
-const url = 'https://api.openweathermap.org/data/2.5/forecast?lat=59.334591&lon=18.063240&appid=b5f961cb2b8355fb880eebbbe376e795&units=imperial';
+const url = 'https://api.openweathermap.org/data/2.5/forecast?lat=33.158092&lon=-117.350594&appid=b5f961cb2b8355fb880eebbbe376e795&units=imperial';
 
 async function apiFetch() {
     try {
