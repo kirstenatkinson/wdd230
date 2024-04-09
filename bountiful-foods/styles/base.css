@@ -216,8 +216,31 @@ select {
     margin-top: .5rem;
 }
 
+input:hover,
+select:hover {
+    border-bottom: .1rem solid var(--accent);
+    transition: .5s;
+}
+
+input:focus {
+    border-bottom: .1rem solid var(--accent);
+}
+
 #drink-demo img {
     width: 100%;
+}
+
+#form-submit {
+    background-color: var(--main-color);
+    color: var(--white-on-color);
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+#form-submit:hover {
+    background-color: var(--accent);
+    transition: .5s;
 }
 
 /* Order Confirm Page */
