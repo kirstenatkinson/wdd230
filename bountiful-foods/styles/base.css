@@ -245,12 +245,6 @@ select {
     margin-top: .5rem;
 }
 
-input:hover,
-select:hover {
-    border-bottom: .1rem solid var(--accent);
-    transition: .5s;
-}
-
 input:focus {
     border-bottom: .1rem solid var(--accent);
 }
@@ -269,10 +263,6 @@ textarea {
     font-size: 1.5rem;
 }
 
-#form-submit:hover {
-    background-color: var(--accent);
-    transition: .5s;
-}
 
 /* Order Confirm Page */
 #confirm-contact-info,

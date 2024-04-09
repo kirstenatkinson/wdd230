@@ -37,4 +37,15 @@
         margin-right: auto;
     }
 
+    input:hover,
+    select:hover {
+        border-bottom: .1rem solid var(--accent);
+        transition: .5s;
+    }
+
+    #form-submit:hover {
+        background-color: var(--accent);
+        transition: .5s;
+    }
+
 }
