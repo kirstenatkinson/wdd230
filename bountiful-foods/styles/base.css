@@ -160,6 +160,7 @@ nav.open {
 
 #current-humid {
     color: white;
+    text-align: center;
 }
 
 #three-day-forcast p {
