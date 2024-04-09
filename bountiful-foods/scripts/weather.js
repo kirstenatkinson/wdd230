@@ -9,7 +9,6 @@ async function apiFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
             displayResults(data);
         } else {
             throw Error(await response.text());
@@ -60,6 +59,7 @@ function displayResults(data) {
 
 function firstThreeDays(days) {
     const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
 
     for (let i = 1; i < days.length && i < 4; i++) {
 

@@ -1,7 +1,14 @@
 @media screen and (min-width: 450px) {
-    #responsive-menu:hover {
-        background-color: var(--accent);
-        transition: 0.5s;
+    #responsive-menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
     }
 
     #navigation ul li a:hover {
@@ -9,8 +16,19 @@
         transition: 0.5s;
     }
 
+    #logo {
+        top: 20%;
+        left: 31%;
+    }
+
+    #hero-button {
+        top: 65%;
+        left: 40%;
+    }
+
     #hero-button:hover {
         background-color: var(--accent);
         transition: 0.5s;
     }
+
 }
