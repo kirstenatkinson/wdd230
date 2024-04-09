@@ -1,0 +1,24 @@
+@media screen and (min-width: 800px) {
+    #home-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #home-main h1 {
+        grid-column: 1 / 3;
+    }
+
+    #home-weather {
+        grid-column: 1 / 3;
+    }
+
+    #api-weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #about-content {
+        display: grid;
+    }
+
+}

@@ -31,4 +31,10 @@
         transition: 0.5s;
     }
 
+    #api-weather {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
