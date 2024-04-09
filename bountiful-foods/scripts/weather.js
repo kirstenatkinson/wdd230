@@ -9,6 +9,7 @@ async function apiFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
+            console.log(data);
             displayResults(data);
         } else {
             throw Error(await response.text());
@@ -23,6 +24,11 @@ function displayResults(data) {
     const currentTemp = (document.createElement('p'));
     currentTemp.setAttribute('id', 'current-degrees');
     currentTemp.innerHTML = `${data.list[0].main.temp}&deg;F`;
+
+    const currentHumid = (document.createElement('p'));
+    currentHumid.setAttribute('id', 'current-humid');
+    currentHumid.innerHTML = `humidity: ${data.list[0].main.humidity}`;
+
 
 
     //Create description to add to figure caption       
@@ -45,22 +51,32 @@ function displayResults(data) {
     figure.appendChild(currentIcon);
     figure.appendChild(figCaption);
     currentTempOutput.appendChild(currentTemp);
+    currentTempOutput.appendChild(currentHumid);
+
 
     //Call function for the first three days
     firstThreeDays(data.list)
 }
 
 function firstThreeDays(days) {
-    for (let i = 0; i < days.length && i < 3; i++) {
+    const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+    for (let i = 1; i < days.length && i < 4; i++) {
 
         //Create day div
         const day = document.createElement('div');
         day.setAttribute('class', 'weather-day');
 
+        //Get the date from days[i]
+        const date = new Date(days[i].dt * 1000);
+
+        //Get day of the week
+        const dayOfWeek = weekdays[date.getDay()];
+
         //Create day name
         const dayName = document.createElement('p');
         dayName.setAttribute('class', 'weather-day-name');
-        dayName.textContent = `Day ${i + 1}`;
+        dayName.textContent = `Day ${i}`;
 
         //Create day icon
         const dayIcon = document.createElement('img');
